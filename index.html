@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Cooking Conversions</title>
+  </head>
+  <body>
+    <div class="container">
+      <br>
+      <h1>Cooking Conversions</h1>
+      <br>
+      <form id="weightForm" >
+        <div class="form-group col-md-4">
+          <label for="ounceInput">Enter Ounces:</label>
+          <input type="text" id="ounceInput" class="ounceInput">
+        </div>
+        <button type="submit" class="btn btn-success">Convert</button>
+      </form>
+      <br>
+      <div id="result">
+        <p><span class="ounceInput"></span> ounces equals <span id="ounceResult"></span> pounds!</p>
+      </div>
+      <br>
+      <form id="liquidForm">
+        <div class="form-group col-md-4">
+          <label for="gallonsInput">Enter Gallons:</label>
+          <input type="text" id="gallonsInput" class="gallonsInput">
+        </div>
+        <button type="submit" class="btn btn-primary">Convert</button>
+      </form>
+      <br>
+      <div id="result2">
+        <p><span class="gallonsInput"></span> gallons equals <span id="gallonsResult"></span> liters!</p>
+      </div>
+    </div>
+  </body>
+</html>
